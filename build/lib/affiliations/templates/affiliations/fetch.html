@@ -1,0 +1,42 @@
+{% extends "affiliations/base.html" %}
+{% load staticfiles %}
+
+{% load i18n %}
+{% load url from future %}
+
+
+
+{% block content%}
+	
+ <h1 class=\"page-header\">Affiliations</h1>
+	<div class="">
+	  <div class="" id="">
+	  <h3>Add Affiliation</h3>
+			 <div class="">
+	  		<div class="">
+  	  			<input type="text" id="aid" class="" name="email" placeholder="Username" required>
+	  		</div></br>
+	  		<button type="button" id="aff-button" class="">
+  				<span class="">Add Affiliation</span> 
+	  		</button>	
+	  </div>
+	  </div>
+	  </div>
+
+	  <div class="">
+		  <div class="" id="aff-form-container">	
+		  	<h3>Your Affiliations</h3>
+			  <table class="" id="aff-table">
+			  	<tr><td>Affiliation</td><td>Account ID</td><td>Status</td></tr>
+			  </table>
+		  </div>
+	  </div>
+	  <script type="text/javascript" src="{% static 'affiliations/affapp.js' %}"></script>
+	  <script>
+		if(!window.jQuery){
+			var tag="<script id=\"jqlib\" onLoad=\"initAffiliations();\" type=\"text/javascript\" src=\"http://code.jquery.com/jquery-2.1.3.min.js\"><\/script>";
+			document.write(tag);
+		}
+		
+	</script>	  
+{% endblock %}
