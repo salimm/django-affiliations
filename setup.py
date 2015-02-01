@@ -17,7 +17,7 @@ setup(
     version='0.1',
     packages=['affiliations'],
     include_package_data=True,
-    license='BSD License',  # example license
+    license = "BSD",
     description='A simple Django app to conduct affiliations for users.',
     long_description=README,
     url='http://salimm.me',
@@ -27,7 +27,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: MIT License', # example license
+        "License :: OSI Approved :: BSD License",
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         # Replace these appropriately if you are stuck on Python 2.

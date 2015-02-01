@@ -5,7 +5,7 @@ Summary: A simple Django app to conduct affiliations for users.
 Home-page: http://salimm.me
 Author: Salim Malakouti
 Author-email: salimm@cs.pitt.edu
-License: BSD License
+License: BSD
 Description: =====
         Affiliations
         =====
@@ -49,7 +49,7 @@ Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
 Classifier: Intended Audience :: Developers
-Classifier: License :: MIT License
+Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
